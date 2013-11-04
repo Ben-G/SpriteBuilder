@@ -12,6 +12,24 @@
 		58FA2034162D73F3006B8856 /* TB_bottomPanel.png in Resources */ = {isa = PBXBuildFile; fileRef = 58FA2031162D73F3006B8856 /* TB_bottomPanel.png */; };
 		58FA2035162D73F3006B8856 /* TB_leftPanel.png in Resources */ = {isa = PBXBuildFile; fileRef = 58FA2032162D73F3006B8856 /* TB_leftPanel.png */; };
 		58FA2036162D73F3006B8856 /* TB_rightPanel.png in Resources */ = {isa = PBXBuildFile; fileRef = 58FA2033162D73F3006B8856 /* TB_rightPanel.png */; };
+		626DDDC71821D3030062CE69 /* CCBPProperties.plist in Resources */ = {isa = PBXBuildFile; fileRef = 626DDDC01821D3030062CE69 /* CCBPProperties.plist */; };
+		626DDDC81821D3030062CE69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 626DDDC11821D3030062CE69 /* InfoPlist.strings */; };
+		626DDDC91821D3030062CE69 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 626DDDC31821D3030062CE69 /* Icon.png */; };
+		626DDDCA1821D3030062CE69 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 626DDDC41821D3030062CE69 /* Icon@2x.png */; };
+		626DDDD31821D5D80062CE69 /* MGWUNode-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 626DDDD21821D5D80062CE69 /* MGWUNode-Info.plist */; };
+		626DDDD41821DE3C0062CE69 /* MGWUNode.ccbPlugNode in Copy PlugIns */ = {isa = PBXBuildFile; fileRef = 62A48DBD1821D24B00936E89 /* MGWUNode.ccbPlugNode */; };
+		626DDE7E1822CE860062CE69 /* avenir-hd.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 626DDE761822CE860062CE69 /* avenir-hd.fnt */; };
+		626DDE7F1822CE860062CE69 /* avenir-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 626DDE771822CE860062CE69 /* avenir-hd.png */; };
+		626DDE801822CE860062CE69 /* avenir.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 626DDE781822CE860062CE69 /* avenir.fnt */; };
+		626DDE811822CE860062CE69 /* avenir.png in Resources */ = {isa = PBXBuildFile; fileRef = 626DDE791822CE860062CE69 /* avenir.png */; };
+		626DDE821822CE860062CE69 /* coin-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 626DDE7A1822CE860062CE69 /* coin-hd.png */; };
+		626DDE831822CE860062CE69 /* coin.png in Resources */ = {isa = PBXBuildFile; fileRef = 626DDE7B1822CE860062CE69 /* coin.png */; };
+		626DDE841822CE860062CE69 /* ScoreboardEntryNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 626DDE7D1822CE860062CE69 /* ScoreboardEntryNode.m */; };
+		626DDE861822DE8D0062CE69 /* avenir-hd.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 626DDE761822CE860062CE69 /* avenir-hd.fnt */; };
+		626DDE871822DE8D0062CE69 /* avenir-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 626DDE771822CE860062CE69 /* avenir-hd.png */; };
+		626DDE881822DE8D0062CE69 /* avenir.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 626DDE781822CE860062CE69 /* avenir.fnt */; };
+		626DDE891822DE8D0062CE69 /* avenir.png in Resources */ = {isa = PBXBuildFile; fileRef = 626DDE791822CE860062CE69 /* avenir.png */; };
+		62A48DB51821D24B00936E89 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7789ABC2133AA82000CEFCC7 /* Cocoa.framework */; };
 		77055FB513D0E5CA009DD63A /* logo-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 77055FB313D0E5CA009DD63A /* logo-icon.png */; };
 		77055FB613D0E5CA009DD63A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 77055FB413D0E5CA009DD63A /* logo.png */; };
 		77156DB1137F0351005EF746 /* CCBSpriteSheetParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 77156DB0137F0351005EF746 /* CCBSpriteSheetParser.m */; };
@@ -403,7 +421,6 @@
 		E360789015EBA5420040A172 /* sel-frame.png in Resources */ = {isa = PBXBuildFile; fileRef = E360788F15EBA5420040A172 /* sel-frame.png */; };
 		E36078BC15EE0B2C0040A172 /* sel-round.png in Resources */ = {isa = PBXBuildFile; fileRef = E36078BB15EE0B2C0040A172 /* sel-round.png */; };
 		E3618D5616655041009F5805 /* CCBPublisherTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3618D5516655041009F5805 /* CCBPublisherTemplate.m */; };
-		E3618D58166562DA009F5805 /* publishTemplates in Resources */ = {isa = PBXBuildFile; fileRef = E3618D57166562DA009F5805 /* publishTemplates */; };
 		E367E32016384F0C00247F12 /* orientation-landscapeleft.png in Resources */ = {isa = PBXBuildFile; fileRef = E367E31C16384F0C00247F12 /* orientation-landscapeleft.png */; };
 		E367E32116384F0C00247F12 /* orientation-landscaperight.png in Resources */ = {isa = PBXBuildFile; fileRef = E367E31D16384F0C00247F12 /* orientation-landscaperight.png */; };
 		E367E32316384F0C00247F12 /* orientation-upsidedown.png in Resources */ = {isa = PBXBuildFile; fileRef = E367E31F16384F0C00247F12 /* orientation-upsidedown.png */; };
@@ -652,6 +669,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		626DDDD01821D3930062CE69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7789ABB5133AA82000CEFCC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62A48DB21821D24B00936E89;
+			remoteInfo = MGWUNode;
+		};
 		B729AC6B181F0D1400BA0D9C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7789ABB5133AA82000CEFCC7 /* Project object */;
@@ -714,13 +738,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = E01E663C121CA00A001A484F;
 			remoteInfo = cocos2d;
-		};
-		B7EE69A518188EB800B983FE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7789ABB5133AA82000CEFCC7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B7EE699418188E0800B983FE;
-			remoteInfo = CCTextField;
 		};
 		B7EE6A081819EE6000B983FE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -841,6 +858,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				626DDDD41821DE3C0062CE69 /* MGWUNode.ccbPlugNode in Copy PlugIns */,
 				B729AC6D181F0D2300BA0D9C /* CCSlider.ccbPlugNode in Copy PlugIns */,
 				B7EE6A0A1819EE6E00B983FE /* CCLayoutBox.ccbPlugNode in Copy PlugIns */,
 				B7EE69A718188ECC00B983FE /* CCTextField.ccbPlugNode in Copy PlugIns */,
@@ -882,6 +900,22 @@
 		58FA2031162D73F3006B8856 /* TB_bottomPanel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TB_bottomPanel.png; sourceTree = "<group>"; };
 		58FA2032162D73F3006B8856 /* TB_leftPanel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TB_leftPanel.png; sourceTree = "<group>"; };
 		58FA2033162D73F3006B8856 /* TB_rightPanel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TB_rightPanel.png; sourceTree = "<group>"; };
+		626DDDC01821D3030062CE69 /* CCBPProperties.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CCBPProperties.plist; sourceTree = "<group>"; };
+		626DDDC21821D3030062CE69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		626DDDC31821D3030062CE69 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		626DDDC41821D3030062CE69 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		626DDDC61821D3030062CE69 /* MGWUNode-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MGWUNode-Prefix.pch"; sourceTree = "<group>"; };
+		626DDDD21821D5D80062CE69 /* MGWUNode-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MGWUNode-Info.plist"; sourceTree = "<group>"; };
+		626DDE761822CE860062CE69 /* avenir-hd.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "avenir-hd.fnt"; sourceTree = "<group>"; };
+		626DDE771822CE860062CE69 /* avenir-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avenir-hd.png"; sourceTree = "<group>"; };
+		626DDE781822CE860062CE69 /* avenir.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = avenir.fnt; sourceTree = "<group>"; };
+		626DDE791822CE860062CE69 /* avenir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avenir.png; sourceTree = "<group>"; };
+		626DDE7A1822CE860062CE69 /* coin-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coin-hd.png"; sourceTree = "<group>"; };
+		626DDE7B1822CE860062CE69 /* coin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coin.png; sourceTree = "<group>"; };
+		626DDE7C1822CE860062CE69 /* ScoreboardEntryNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreboardEntryNode.h; sourceTree = "<group>"; };
+		626DDE7D1822CE860062CE69 /* ScoreboardEntryNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreboardEntryNode.m; sourceTree = "<group>"; };
+		62A48DBD1821D24B00936E89 /* MGWUNode.ccbPlugNode */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MGWUNode.ccbPlugNode; sourceTree = BUILT_PRODUCTS_DIR; };
+		62A48DBE1821D24C00936E89 /* CCNode copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CCNode copy-Info.plist"; path = "/Users/benjaminencz/Development/MGWU/SpriteBuilder_MGWU/SpriteBuilder/SpriteBuilder/CCNode copy-Info.plist"; sourceTree = "<absolute>"; };
 		77055FB313D0E5CA009DD63A /* logo-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-icon.png"; sourceTree = "<group>"; };
 		77055FB413D0E5CA009DD63A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		77156DAF137F0351005EF746 /* CCBSpriteSheetParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBSpriteSheetParser.h; sourceTree = "<group>"; };
@@ -1835,6 +1869,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		62A48DB41821D24B00936E89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62A48DB51821D24B00936E89 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7789ABBB133AA82000CEFCC7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -2010,6 +2052,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		626DDDBF1821D3030062CE69 /* MGWUNode */ = {
+			isa = PBXGroup;
+			children = (
+				626DDE751822CE860062CE69 /* ScoreBoardEntry */,
+				626DDDD21821D5D80062CE69 /* MGWUNode-Info.plist */,
+				626DDDC01821D3030062CE69 /* CCBPProperties.plist */,
+				626DDDC11821D3030062CE69 /* InfoPlist.strings */,
+				626DDDC31821D3030062CE69 /* Icon.png */,
+				626DDDC41821D3030062CE69 /* Icon@2x.png */,
+				626DDDC61821D3030062CE69 /* MGWUNode-Prefix.pch */,
+			);
+			path = MGWUNode;
+			sourceTree = "<group>";
+		};
+		626DDE751822CE860062CE69 /* ScoreBoardEntry */ = {
+			isa = PBXGroup;
+			children = (
+				626DDE761822CE860062CE69 /* avenir-hd.fnt */,
+				626DDE771822CE860062CE69 /* avenir-hd.png */,
+				626DDE781822CE860062CE69 /* avenir.fnt */,
+				626DDE791822CE860062CE69 /* avenir.png */,
+				626DDE7A1822CE860062CE69 /* coin-hd.png */,
+				626DDE7B1822CE860062CE69 /* coin.png */,
+				626DDE7C1822CE860062CE69 /* ScoreboardEntryNode.h */,
+				626DDE7D1822CE860062CE69 /* ScoreboardEntryNode.m */,
+			);
+			path = ScoreBoardEntry;
+			sourceTree = "<group>";
+		};
 		776041E01498F4A00078095D /* Document Readers & Writers */ = {
 			isa = PBXGroup;
 			children = (
@@ -2388,6 +2459,7 @@
 				FA98CFC5154E7D1C006E58C5 /* ccbpublish */,
 				7789ABC1133AA82000CEFCC7 /* Frameworks */,
 				7789ABBF133AA82000CEFCC7 /* Products */,
+				62A48DBE1821D24C00936E89 /* CCNode copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -2413,6 +2485,7 @@
 				B7EE699518188E0800B983FE /* CCTextField.ccbPlugNode */,
 				B7EE69F81819EE0D00B983FE /* CCLayoutBox.ccbPlugNode */,
 				B729AC52181F091800BA0D9C /* CCSlider.ccbPlugNode */,
+				62A48DBD1821D24B00936E89 /* MGWUNode.ccbPlugNode */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3263,6 +3336,7 @@
 		E35392461518AD0A00471721 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				626DDDBF1821D3030062CE69 /* MGWUNode */,
 				E3D59123150F5367004180CA /* CCBFile */,
 				E3B7AEC714E3193500DFD402 /* CCNode */,
 				B7EE69FA1819EE0D00B983FE /* CCLayoutBox */,
@@ -3947,6 +4021,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		62A48DB21821D24B00936E89 /* MGWUNode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62A48DBA1821D24B00936E89 /* Build configuration list for PBXNativeTarget "MGWUNode" */;
+			buildPhases = (
+				62A48DB31821D24B00936E89 /* Sources */,
+				62A48DB41821D24B00936E89 /* Frameworks */,
+				62A48DB61821D24B00936E89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MGWUNode;
+			productName = CCNode;
+			productReference = 62A48DBD1821D24B00936E89 /* MGWUNode.ccbPlugNode */;
+			productType = "com.apple.product-type.bundle";
+		};
 		7789ABBD133AA82000CEFCC7 /* SpriteBuilder */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7789ABDC133AA82000CEFCC7 /* Build configuration list for PBXNativeTarget "SpriteBuilder" */;
@@ -3962,9 +4053,9 @@
 			buildRules = (
 			);
 			dependencies = (
+				626DDDD11821D3930062CE69 /* PBXTargetDependency */,
 				B729AC6C181F0D1400BA0D9C /* PBXTargetDependency */,
 				B7EE6A091819EE6000B983FE /* PBXTargetDependency */,
-				B7EE69A618188EB800B983FE /* PBXTargetDependency */,
 				B73788EE1804AF5E0076A88C /* PBXTargetDependency */,
 				B79F90E517FF31A300908504 /* PBXTargetDependency */,
 				B7C3533317F65652005697C1 /* PBXTargetDependency */,
@@ -4342,6 +4433,7 @@
 				B79F90D717FF30DB00908504 /* CCPhysicsNode */,
 				7789ABBD133AA82000CEFCC7 /* SpriteBuilder */,
 				FA98CFC0154E7D1C006E58C5 /* ccbpublish */,
+				62A48DB21821D24B00936E89 /* MGWUNode */,
 			);
 		};
 /* End PBXProject section */
@@ -4385,10 +4477,32 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		62A48DB61821D24B00936E89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				626DDE831822CE860062CE69 /* coin.png in Resources */,
+				626DDDD31821D5D80062CE69 /* MGWUNode-Info.plist in Resources */,
+				626DDE7F1822CE860062CE69 /* avenir-hd.png in Resources */,
+				626DDE821822CE860062CE69 /* coin-hd.png in Resources */,
+				626DDDC91821D3030062CE69 /* Icon.png in Resources */,
+				626DDDCA1821D3030062CE69 /* Icon@2x.png in Resources */,
+				626DDDC71821D3030062CE69 /* CCBPProperties.plist in Resources */,
+				626DDE7E1822CE860062CE69 /* avenir-hd.fnt in Resources */,
+				626DDE801822CE860062CE69 /* avenir.fnt in Resources */,
+				626DDE811822CE860062CE69 /* avenir.png in Resources */,
+				626DDDC81821D3030062CE69 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7789ABBC133AA82000CEFCC7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				626DDE861822DE8D0062CE69 /* avenir-hd.fnt in Resources */,
+				626DDE871822DE8D0062CE69 /* avenir-hd.png in Resources */,
+				626DDE881822DE8D0062CE69 /* avenir.fnt in Resources */,
+				626DDE891822DE8D0062CE69 /* avenir.png in Resources */,
 				A77EF594171FD3B200451DA4 /* cwebp in Resources */,
 				7789ABCD133AA82000CEFCC7 /* InfoPlist.strings in Resources */,
 				7789ABD3133AA82000CEFCC7 /* Credits.rtf in Resources */,
@@ -4574,7 +4688,6 @@
 				581130601639C52500A86D70 /* seq-startmarker.png in Resources */,
 				E3808DB41641C45B00398456 /* PublishSettingsWindow.xib in Resources */,
 				E38DAB22165AC18800EA24E4 /* reshandler-spritesheet-folder.png in Resources */,
-				E3618D58166562DA009F5805 /* publishTemplates in Resources */,
 				B79F90B117FF27B200908504 /* CMakeLists.txt in Resources */,
 				B7096E2C180CD98E00164A8A /* doc-scene@2x.png in Resources */,
 				E3366A39168159F30094BD94 /* PVRTexToolCL in Resources */,
@@ -4840,6 +4953,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		62A48DB31821D24B00936E89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				626DDE841822CE860062CE69 /* ScoreboardEntryNode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7789ABBA133AA82000CEFCC7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -5251,6 +5372,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		626DDDD11821D3930062CE69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62A48DB21821D24B00936E89 /* MGWUNode */;
+			targetProxy = 626DDDD01821D3930062CE69 /* PBXContainerItemProxy */;
+		};
 		B729AC6C181F0D1400BA0D9C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B729AC51181F091800BA0D9C /* CCSlider */;
@@ -5285,11 +5411,6 @@
 			isa = PBXTargetDependency;
 			name = cocos2d;
 			targetProxy = B7D0918817C2C16E0007FE7F /* PBXContainerItemProxy */;
-		};
-		B7EE69A618188EB800B983FE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B7EE699418188E0800B983FE /* CCTextField */;
-			targetProxy = B7EE69A518188EB800B983FE /* PBXContainerItemProxy */;
 		};
 		B7EE6A091819EE6000B983FE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -5349,6 +5470,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		626DDDC11821D3030062CE69 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				626DDDC21821D3030062CE69 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		7789ABCB133AA82000CEFCC7 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -5512,6 +5641,74 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		62A48DBB1821D24B00936E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/benjaminencz/Development/MGWU/SpriteBuilder_MGWU/SpriteBuilder/SpriteBuilder/libs/mgwuSDK.embeddedframework,
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CCNode/CCNode-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				HEADER_SEARCH_PATHS = (
+					"libs/cocos2d-iphone/cocos2d/**",
+					"libs/cocos2d-iphone/cocos2d-ui/**",
+				);
+				INFOPLIST_FILE = "MGWUNode/MGWUNode-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = MGWUNode;
+				WRAPPER_EXTENSION = ccbPlugNode;
+			};
+			name = Debug;
+		};
+		62A48DBC1821D24B00936E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/benjaminencz/Development/MGWU/SpriteBuilder_MGWU/SpriteBuilder/SpriteBuilder/libs/mgwuSDK.embeddedframework,
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CCNode/CCNode-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				HEADER_SEARCH_PATHS = (
+					"libs/cocos2d-iphone/cocos2d/**",
+					"libs/cocos2d-iphone/cocos2d-ui/**",
+				);
+				INFOPLIST_FILE = "MGWUNode/MGWUNode-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = MGWUNode;
+				WRAPPER_EXTENSION = ccbPlugNode;
+			};
+			name = Release;
+		};
 		7789ABDA133AA82000CEFCC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -6913,6 +7110,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		62A48DBA1821D24B00936E89 /* Build configuration list for PBXNativeTarget "MGWUNode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62A48DBB1821D24B00936E89 /* Debug */,
+				62A48DBC1821D24B00936E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7789ABB8133AA82000CEFCC7 /* Build configuration list for PBXProject "SpriteBuilder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
