@@ -23,6 +23,9 @@
     if (self)
     {
         NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+        
+        [[CCFileUtils sharedFileUtils] setBundle:bundle];
+        
         NSString *path = [bundle pathForResource:@"avenir" ofType:@"fnt"];
         
         NSImage *scoreImageP = [NSImage imageNamed:@"coin.png"];
@@ -44,6 +47,7 @@
             _scoreLabel.position = ccp(_scoreLabel.position.x + scoreIcon.contentSize.width, _scoreLabel.position.y);
         }
         
+        [[CCFileUtils sharedFileUtils] setBundle:[NSBundle mainBundle]];
 //        [self scheduleUpdate];
 //        [self pauseSchedulerAndActions];
     }

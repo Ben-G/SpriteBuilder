@@ -25,13 +25,7 @@
 		626DDE821822CE860062CE69 /* coin-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 626DDE7A1822CE860062CE69 /* coin-hd.png */; };
 		626DDE831822CE860062CE69 /* coin.png in Resources */ = {isa = PBXBuildFile; fileRef = 626DDE7B1822CE860062CE69 /* coin.png */; };
 		626DDE841822CE860062CE69 /* ScoreboardEntryNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 626DDE7D1822CE860062CE69 /* ScoreboardEntryNode.m */; };
-		626DDE861822DE8D0062CE69 /* avenir-hd.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 626DDE761822CE860062CE69 /* avenir-hd.fnt */; };
-		626DDE871822DE8D0062CE69 /* avenir-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 626DDE771822CE860062CE69 /* avenir-hd.png */; };
-		626DDE881822DE8D0062CE69 /* avenir.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 626DDE781822CE860062CE69 /* avenir.fnt */; };
-		626DDE891822DE8D0062CE69 /* avenir.png in Resources */ = {isa = PBXBuildFile; fileRef = 626DDE791822CE860062CE69 /* avenir.png */; };
 		62A48DB51821D24B00936E89 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7789ABC2133AA82000CEFCC7 /* Cocoa.framework */; };
-		62D308D51829808B002785BB /* coin-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 626DDE7A1822CE860062CE69 /* coin-hd.png */; };
-		62D308DA18298093002785BB /* coin.png in Resources */ = {isa = PBXBuildFile; fileRef = 626DDE7B1822CE860062CE69 /* coin.png */; };
 		77055FB513D0E5CA009DD63A /* logo-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 77055FB313D0E5CA009DD63A /* logo-icon.png */; };
 		77055FB613D0E5CA009DD63A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 77055FB413D0E5CA009DD63A /* logo.png */; };
 		77156DB1137F0351005EF746 /* CCBSpriteSheetParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 77156DB0137F0351005EF746 /* CCBSpriteSheetParser.m */; };
@@ -4501,12 +4495,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62D308DA18298093002785BB /* coin.png in Resources */,
-				62D308D51829808B002785BB /* coin-hd.png in Resources */,
-				626DDE861822DE8D0062CE69 /* avenir-hd.fnt in Resources */,
-				626DDE871822DE8D0062CE69 /* avenir-hd.png in Resources */,
-				626DDE881822DE8D0062CE69 /* avenir.fnt in Resources */,
-				626DDE891822DE8D0062CE69 /* avenir.png in Resources */,
 				A77EF594171FD3B200451DA4 /* cwebp in Resources */,
 				7789ABCD133AA82000CEFCC7 /* InfoPlist.strings in Resources */,
 				7789ABD3133AA82000CEFCC7 /* Credits.rtf in Resources */,
