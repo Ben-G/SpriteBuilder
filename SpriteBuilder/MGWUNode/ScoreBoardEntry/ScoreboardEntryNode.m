@@ -10,10 +10,10 @@
 
 @implementation ScoreboardEntryNode
 
-//@synthesize score = _score;
+@synthesize score = _score;
 
 - (id)init {
-    return [self initWithScoreImage:nil fontFile:nil];
+    return [self initWithScoreImage:@"coin.png" fontFile:@"avenir.fnt"];
 }
 
 - (id)initWithScoreImage:(NSString *)scoreImage fontFile:(NSString *)fontFile
@@ -22,11 +22,14 @@
     
     if (self)
     {
+        NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+        NSString *path = [bundle pathForResource:@"avenir" ofType:@"fnt"];
         
+        NSImage *scoreImageP = [NSImage imageNamed:@"coin.png"];
         
         self.scoreStringFormat = @"%d";
-        _scoreLabel = [[CCLabelBMFont alloc] init];
-        //_scoreLabel.string = [NSString stringWithFormat:_scoreStringFormat, _score];
+        _scoreLabel = [CCLabelBMFont labelWithString:@"" fntFile:fontFile];
+        _scoreLabel.string = [NSString stringWithFormat:_scoreStringFormat, _score];
         _scoreLabel.anchorPoint = ccp(0,0.5);
         [self addChild:_scoreLabel];
         
@@ -41,20 +44,21 @@
             _scoreLabel.position = ccp(_scoreLabel.position.x + scoreIcon.contentSize.width, _scoreLabel.position.y);
         }
         
-        //[self scheduleUpdate];
-        //[self pauseSchedulerAndActions];
+//        [self scheduleUpdate];
+//        [self pauseSchedulerAndActions];
     }
     
     return self;
 }
 
-//- (void)setScore:(int)score {
-//    [self setScore:score animated:FALSE];
-//}
+- (void)setScore:(NSNumber*)score {
+    _score = score;
+    [self setScore:[score intValue] animated:FALSE];
+}
 
-/*- (void)setScore:(int)score animated:(BOOL)animated
+- (void)setScore:(int)score animated:(BOOL)animated
 {
-    if (_score == score)
+    if ([_score intValue] == score)
     {
         // if score wasn't changed, return.
         return;
@@ -71,7 +75,7 @@
     }
     
     _score = score;
-}*/
+}
 
 //- (void)update:(ccTime)delta {
 //    _timeElapsed += delta;
