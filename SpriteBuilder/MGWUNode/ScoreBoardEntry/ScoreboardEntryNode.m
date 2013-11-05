@@ -26,10 +26,6 @@
         
         [[CCFileUtils sharedFileUtils] setBundle:bundle];
         
-        NSString *path = [bundle pathForResource:@"avenir" ofType:@"fnt"];
-        
-        NSImage *scoreImageP = [NSImage imageNamed:@"coin.png"];
-        
         self.scoreStringFormat = @"%d";
         _scoreLabel = [CCLabelBMFont labelWithString:@"" fntFile:fontFile];
         _scoreLabel.string = [NSString stringWithFormat:_scoreStringFormat, _score];
@@ -42,6 +38,7 @@
         {
             CCSprite *scoreIcon = [CCSprite spriteWithFile:scoreImage];
             [self addChild:scoreIcon];
+            scoreIcon.position = ccp(scoreIcon.position.x, _scoreLabel.position.y);
             
             // move the score label to the right of the icon
             _scoreLabel.position = ccp(_scoreLabel.position.x + scoreIcon.contentSize.width, _scoreLabel.position.y);
@@ -57,29 +54,11 @@
 
 - (void)setScore:(NSNumber*)score {
     _score = score;
-    [self setScore:[score intValue] animated:FALSE];
+    
+    _displayScore = score;
+    _scoreLabel.string = [NSString stringWithFormat:_scoreStringFormat, [score intValue]];
 }
 
-- (void)setScore:(int)score animated:(BOOL)animated
-{
-    if ([_score intValue] == score)
-    {
-        // if score wasn't changed, return.
-        return;
-    }
-    
-    if (!animated)
-    {
-        // store the old score as the initial displayScore
-        _displayScore = score;
-        _scoreLabel.string = [NSString stringWithFormat:_scoreStringFormat, score];
-    } else
-    {
-        //[self resumeSchedulerAndActions];
-    }
-    
-    _score = score;
-}
 
 //- (void)update:(ccTime)delta {
 //    _timeElapsed += delta;
