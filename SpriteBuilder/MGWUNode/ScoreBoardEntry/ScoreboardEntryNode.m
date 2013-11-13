@@ -8,7 +8,9 @@
 
 #import "ScoreboardEntryNode.h"
 
-@implementation ScoreboardEntryNode
+@implementation ScoreboardEntryNode {
+    CCSprite *_scoreIcon;
+}
 
 @synthesize score = _score;
 
@@ -21,7 +23,7 @@
     self = [super init];
     
     if (self)
-    {
+    {        
         NSBundle *bundle = [NSBundle bundleForClass:[self class]];
         
         [[CCFileUtils sharedFileUtils] setBundle:bundle];
@@ -36,12 +38,12 @@
         
         if (scoreImage)
         {
-            CCSprite *scoreIcon = [CCSprite spriteWithFile:scoreImage];
-            [self addChild:scoreIcon];
-            scoreIcon.position = ccp(scoreIcon.position.x, _scoreLabel.position.y);
+            _scoreIcon = [CCSprite spriteWithFile:scoreImage];
+            [self addChild:_scoreIcon];
+            _scoreIcon.position = ccp(_scoreIcon.position.x, _scoreLabel.position.y);
             
             // move the score label to the right of the icon
-            _scoreLabel.position = ccp(_scoreLabel.position.x + scoreIcon.contentSize.width, _scoreLabel.position.y);
+            _scoreLabel.position = ccp(_scoreLabel.position.x + _scoreIcon.contentSize.width, _scoreLabel.position.y);
         }
         
         [[CCFileUtils sharedFileUtils] setBundle:[NSBundle mainBundle]];
@@ -59,6 +61,19 @@
     _scoreLabel.string = [NSString stringWithFormat:_scoreStringFormat, [score intValue]];
 }
 
+
+- (void)setSpriteFrame:(CCSpriteFrame *)spriteFrame {
+    if (spriteFrame != nil) {
+        _scoreIcon.spriteFrame = spriteFrame;
+    } else {
+        CCSpriteFrame *spriteFrame = [CCSpriteFrame frameWithImageNamed:@"coin.png"];
+        _scoreIcon.spriteFrame = spriteFrame;
+    }
+}
+
+- (CCSpriteFrame *)spriteFrame {
+    return _scoreIcon.spriteFrame;
+}
 
 //- (void)update:(ccTime)delta {
 //    _timeElapsed += delta;

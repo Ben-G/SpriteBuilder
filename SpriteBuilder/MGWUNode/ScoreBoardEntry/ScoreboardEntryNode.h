@@ -44,6 +44,8 @@
  */
 @property (nonatomic, assign) int scoreAnimationSteps;
 
+
+@property (nonatomic, assign) CCSpriteFrame *spriteFrame;
 /**
  Lets you define a score image (optional) and a font file. Both resources need to be 
  part of the apps main bundle.
